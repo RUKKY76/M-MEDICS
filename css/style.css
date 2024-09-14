@@ -1,0 +1,172 @@
+/* the root didnt work */
+/* :root {
+  --primaryColor: #008000;
+  --secondaryColor: rgb(108, 103, 103);
+  --color-black: rgba(0, 0, 0, 0.69);
+  --fontColor: #6b6a75;
+  --textColor: #38b45c;
+} */
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* all classes are arranged according to the way they are on htmll */
+
+.form-container {
+  display:flex;
+  width: 100%;
+  height: 100%;
+ flex-direction: row;
+  justify-content: center;
+}
+.the-main-login-box {
+  background-color: white;
+  height: 100px;
+  width: 900px;
+}
+.the-login-box {
+  margin-left: 8rem;
+  position: absolute;
+  top:70px;
+}
+.logo-text {
+  margin-bottom: 2.5rem;
+}
+.logo-text > h3 {
+  color: #5FBA49;
+  font-family: Segoe UI;
+  font-size: 22px;
+ font-weight:normal; 
+  line-height: 28px; 
+}
+.first-login-text  {
+  margin-bottom: 1rem;
+}
+.first-login-text > h2 {
+  margin-bottom: 1rem;
+  font-family:Segoe UI;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.first-login-text> p {
+  color: #475467;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+
+.forget-password-text > p {
+  color: #5FBA49;
+  font-family: Segoe UI;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+}
+input {
+  margin-top: 5px;
+}
+form > label {
+  font-family: Segoe UI;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #475467;
+}
+form > input {
+  width: 400px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1.8px solid #ccc;
+  color: #475467;
+  width: Fill (360px)px;
+  height: Hug (44px)px;
+  padding: 10px 14px 10px 14px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  vertical-align:bottom;
+}
+label {
+ vertical-align: middle;
+}
+.remember-text > label {
+  color: #475467;
+}
+.forget-password {
+  display: flex;
+  gap: 120px;
+  margin-bottom: 1.5rem;
+}
+
+.the-sign-in {
+  display: flex;
+  flex-direction: column;
+}
+.sign-in-btn {
+  width: 400px;
+  height: 45px;
+  border-radius: 8px;
+  background-color: #5FBA49;
+  border: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  font-family: Segoe UI;
+  font-weight: 600;
+}
+.sign-in-google-btn {
+  width: 400px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1.8px solid #ccc;
+  background-color: transparent;
+  color: #344054;
+  margin-bottom: 1.5rem;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.the-sign-in > p {
+  font-family:Segoe UI;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #475467;
+}
+span {
+  color:  #5FBA49;
+  font-family: Segoe UI;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+}
+.diagram-img > img{
+  height: 550px;
+  width: 650px;
+  margin-left: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.diagram-img {
+  background-color: whitesmoke;
+  height: 700px;
+  width: 700px;
+}
